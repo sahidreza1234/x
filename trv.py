@@ -3,6 +3,7 @@ from selenium.webdriver.common.by import By
 browser = webdriver.Chrome()
 browser.get('http://trivago.com/')
 print("Test 1: Verify Title")
+#x
 title=browser.title
 if title == "trivago.in - Compare hotel prices worldwie":
 	print(browser.title)
